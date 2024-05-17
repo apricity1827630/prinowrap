@@ -1,0 +1,144 @@
+@charset "utf-8";
+@import url(all.min.css);
+@import url(fonts.css);
+@media screen and (min-width:200px) and (max-width:600px) {
+
+
+    .contain {
+        width: 100%;
+        position: relative;
+    }
+
+    .titlebox {
+        overflow: hidden;
+   margin: 40px 0 20px;
+display: flex;
+justify-content: space-between;
+    }
+    .titlebox .button{
+     margin-left: 4%;
+    
+    }
+    .titlebox .title {
+position: absolute;
+top: 0;right: 40%;
+        font-size: 20px;
+        font-weight: 600;
+        color: #cdcdcd;
+    }
+
+    .checkbox {
+        margin: 20px 40px;
+
+    }
+
+    .checkbox>input {
+        width: 100%;
+        height: 35px;
+        margin-bottom: 20px;
+        border: 0.5px solid #cdcdcd
+    }
+    .checkbox label{
+        color: #000;
+        font-weight: 600;
+ display: block;
+ height: 30px;
+    }
+    .contain .next {
+        display: block;
+        width: 90%;
+        margin: 170px 0 0 5%;
+        background-color: #F06A6A;
+        border-radius: 30px;
+        line-height: 50px;
+        height: 45px;
+        color: #fff;
+        text-align: center;
+    }
+
+    /* phonenumber */
+    .phonenumber .textbox {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .phonenumber input {
+        width: 72%;
+        height: 35px;
+        border-radius: 30px;
+        border: 1px solid #c4c3c3;
+        margin-bottom: 16px;
+
+    }
+
+    .phonenumber .textbox {
+        position: relative;
+
+    }
+    .phonenumber #authentication{
+        background-color: #e6e6e6;
+        border: none;
+    }
+    .phonenumber .textbox button {
+        background-color: #000;
+        color: #fff;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: -4%;
+        height: 30px;
+    }
+
+    .phonenumber label{
+margin-left: 10px;
+    }
+
+
+
+
+
+
+
+    /* footer */
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background: white;
+        border-top: 1px solid #e6e6e6;
+        border-radius: 20px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        z-index: 1000;
+    }
+
+    footer .mypage a {
+        width: 36px;
+    }
+
+    footer .mypage a img {
+        width: 100%;
+    }
+
+    footer .deli>a {
+        display: block;
+        width: 32px;
+
+    }
+
+    footer .deli a img {
+        width: 100%;
+    }
+
+    footer img {
+        width: 32px;
+        height: 32px;
+    }
+
+
+}
